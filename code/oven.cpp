@@ -153,6 +153,6 @@ printLog("==================OVEN===========================\n");
 printLog("\tClock=%g", clock);
 printLog("\tAccumulate Cost = %g\n", totalCost);
 printLog("\tAverage Waiting Time = %g\n", waitingTime/processed);
-printLog("\tPastes Processed = %d\n", processed);
+//printLog("\tPastes Processed = %d\n", processed);
 printLog("=============================================\n");
 }
