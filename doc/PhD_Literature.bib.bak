@@ -1,0 +1,350 @@
+% This file was created with JabRef 2.9.1.
+% Encoding: UTF8
+
+@INCOLLECTION{Al-Hammouri2008,
+  author = {Al-Hammouri, Ahmad T and Branicky, Michael S and Liberatore, Vincenzo},
+  title = {Co-simulation tools for networked control systems},
+  booktitle = {Hybrid Systems: Computation and Control},
+  publisher = {Springer},
+  year = {2008},
+  pages = {16--29},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Co-Simulation Tools forNetworked Control Systems.pdf:PDF}
+}
+
+@INCOLLECTION{Barkakati2010,
+  author = {Barkakati, Nabajyoti and Wilshusen, Gregory C},
+  title = {Deficient ICT Controls Jeopardize Systems Supporting the Electric
+	Grid: A Case Study},
+  booktitle = {Securing Electricity Supply in the Cyber Age},
+  publisher = {Springer},
+  year = {2010},
+  pages = {129--142},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-Deficient ICT Controls Jeopardize Systems Supporting the Electric Grid - A Case Study.pdf:PDF}
+}
+
+@ARTICLE{BK11,
+  author = {Bergero, F. and Kofman, E.},
+  title = {{PowerDEVS. A Tool for Hybrid System Modeling and Real Time Simulation}},
+  journal = {Simulation: Transactions of the Society for Modeling and Simulation
+	International},
+  year = {2011},
+  volume = {87},
+  pages = {113--132},
+  number = {1--2},
+  http = {http://sim.sagepub.com/content/87/1-2/113},
+  url = {files/bergero_kofman_pd.pdf}
+}
+
+@ARTICLE{Carullo2005,
+  author = {Carullo, Stephen P and Nwankpa, Chika O},
+  title = {Experimental validation of a model for an information-embedded power
+	system},
+  journal = {Power Delivery, IEEE Transactions on},
+  year = {2005},
+  volume = {20},
+  pages = {1853--1863},
+  number = {3},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\experimental validation of a model for information embedded power system.pdf:PDF},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{Dominguez-Garcia2012,
+  author = {Dom{\'\i}nguez-Garc{\'\i}a, AD},
+  title = {Reliability modeling of cyber-physical electric power systems: A
+	system-theoretic framework},
+  booktitle = {Power and Energy Society General Meeting, 2012 IEEE},
+  year = {2012},
+  pages = {1--5},
+  organization = {IEEE},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Reliability Modeling of Cyber-Physical Electric Power Systems - A System-Theoretic Framework.pdf:PDF}
+}
+
+@PHDTHESIS{Falahati2013a,
+  author = {Falahati, Bamdad},
+  title = {Reliability assessment of smart grid considering cyber-power interdependencies},
+  school = {MISSISSIPPI STATE UNIVERSITY},
+  year = {2013},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Reliability assessment of smart grid considering cyber-power interdependencies.pdf:PDF}
+}
+
+@ARTICLE{Falahati2013,
+  author = {Falahati, Bamdad and Fu, Yong and Mousavi, Mirrasoul J},
+  title = {Reliability Modeling and Evaluation of Power Systems With Smart Monitoring.},
+  journal = {IEEE Trans. Smart Grid},
+  year = {2013},
+  volume = {4},
+  pages = {1087--1095},
+  number = {2},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\rel_IEEE Trans - Reliability Assessment of SG 2 (thesis).pdf:PDF}
+}
+
+@ARTICLE{Falahati2012,
+  author = {Falahati, Bamdad and Fu, Yong and Wu, Lei},
+  title = {Reliability assessment of smart grid considering direct cyber-power
+	interdependencies},
+  journal = {Smart Grid, IEEE Transactions on},
+  year = {2012},
+  volume = {3},
+  pages = {1515--1524},
+  number = {3},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Reliability Assessment of Smart Grid Considering Direct Cyber-Power Interdependencies Smart Grid, IEEE Transactions on, 2012, 3, 1515-1524 .pdf:PDF},
+  publisher = {IEEE}
+}
+
+@BOOK{Faza2010,
+  title = {Integrated cyber-physical fault injection for reliability analysis
+	of the smart grid},
+  publisher = {Springer},
+  year = {2010},
+  author = {Faza, Ayman and Sedigh, Sahra and McMillin, Bruce},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-chp%3A10.1007%2F978-3-642-15651-9_21.pdf:PDF}
+}
+
+@INCOLLECTION{Faza2009,
+  author = {Faza, Ayman Z and Sedigh, Sahra and McMillin, Bruce M},
+  title = {Reliability analysis for the advanced electric power grid: from cyber
+	control and communication to physical manifestations of failure},
+  booktitle = {Computer Safety, Reliability, and Security},
+  publisher = {Springer},
+  year = {2009},
+  pages = {257--269},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-chp%3A10.1007%2F978-3-642-04468-7_21.pdf:PDF}
+}
+
+@ARTICLE{Kirschen2009,
+  author = {Kirschen, D and Bouffard, F},
+  title = {Keep the lights on and the Information Flowing, a new framework for
+	analyzing power system security},
+  journal = {IEEE Power Energy Mag},
+  year = {2009},
+  pages = {50--60},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\keeps the lights on.pdf:PDF}
+}
+
+@ARTICLE{Kof03b,
+  author = {Kofman, E.},
+  title = {{Quantized-State Control. A Method for Discrete Event Control of
+	Continuous Systems.}},
+  journal = {Latin American Applied Research},
+  year = {2003},
+  volume = {33},
+  pages = {399--406},
+  number = {4},
+  http = {http://www.laar.uns.edu.ar/indexes/artic_v3304/33_4_p399.pdf},
+  url = {files/qsc_paper.pdf}
+}
+
+@BOOK{LeBoudec2010,
+  title = {Performance evaluation of computer and communication systems},
+  publisher = {EPFL Press},
+  year = {2010},
+  author = {Le Boudec, Jean-Yves},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Performance Evaluation of Computer and Communication Systems.pdf:PDF}
+}
+
+@TECHREPORT{Lee:EECS-2008-8,
+  author = {Lee, Edward A.},
+  title = {Cyber Physical Systems: Design Challenges},
+  institution = {EECS Department, University of California, Berkeley},
+  year = {2008},
+  number = {UCB/EECS-2008-8},
+  month = {Jan},
+  abstract = {Cyber-Physical Systems (CPS) are integrations of computation and physical
+	processes. Embedded computers and networks monitor and control the
+	physical processes, usually with feedback loops where physical processes
+	affect computations and vice versa. The economic and societal potential
+	of such systems is vastly greater than what has been realized, and
+	major investments are being made worldwide to develop the technology.
+	There are considerable challenges, particularly because the physical
+	components of such systems introduce safety and reliability requirements
+	qualitatively different from those in general-purpose computing.
+	Moreover, physical components are qualitatively different from object-oriented
+	software components. Standard abstractions based on method calls
+	and threads do not work. This paper examines the challenges in designing
+	such systems, and in particular raises the question of whether today¿s
+	computing and networking technologies provide an adequate foundation
+	for CPS. It concludes that it will not be sufficient to improve design
+	processes, raise the level of abstraction, or verify (formally or
+	otherwise) designs that are built on today¿s abstractions. To realize
+	the full potential of CPS, we will have to rebuild computing and
+	networking abstractions. These abstractions will have to embrace
+	physical dynamics and computation in a unified way.},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\EECS-2008-8.pdf:PDF},
+  url = {http://www.eecs.berkeley.edu/Pubs/TechRpts/2008/EECS-2008-8.html}
+}
+
+@INCOLLECTION{Lee2013,
+  author = {Lee, Jooyi and Maeng, Ji Chan and Song, Byeonghun and Yoon, Hyunmin
+	and Kim, Taeho and Kim, Won-Tae and Ryu, Minsoo},
+  title = {Software-Based Fault Detection and Recovery for Cyber-Physical Systems},
+  booktitle = {Multimedia and Ubiquitous Engineering},
+  publisher = {Springer},
+  year = {2013},
+  pages = {1107--1112},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-chp%3A10.1007%2F978-94-007-6738-6_136.pdf:PDF}
+}
+
+@ARTICLE{ManRTI,
+  author = {Mantegazza, P. and Dozio, E. L. and Papacharalambous, S.},
+  title = {RTAI: Real Time Application Interface},
+  journal = {Linux J.},
+  year = {2000},
+  volume = {2000},
+  number = {72es},
+  month = apr,
+  acmid = {348564},
+  address = {Houston, TX},
+  articleno = {10},
+  issn = {1075-3583},
+  issue_date = {April 2000},
+  publisher = {Belltown Media},
+  url = {http://dl.acm.org/citation.cfm?id=348554.348564}
+}
+
+@ARTICLE{6766918,
+  author = {Mets, K. and Ojea, J.A. and Develder, C.},
+  title = {Combining Power and Communication Network Simulation for Cost-Effective
+	Smart Grid Analysis},
+  journal = {Communications Surveys Tutorials, IEEE},
+  year = {2014},
+  volume = {16},
+  pages = {1771-1796},
+  number = {3},
+  month = {Third},
+  __markedentry = {[kazmij:5]},
+  abstract = {Today's electricity grid is transitioning to a so-called smart grid.
+	The associated challenges and funding initiatives have spurred great
+	efforts from the research community to propose innovative smart grid
+	solutions. To assess the performance of possible solutions, simulation
+	tools offer a cost effective and safe approach. In this paper we
+	will provide a comprehensive overview of various tools and their
+	characteristics, applicable in smart grid research: we will cover
+	both the communication and associated ICT infrastructure, on top
+	of the power grid. First, we discuss the motivation for the development
+	of smart grid simulators, as well as their associated research questions
+	and design challenges. Next, we discuss three types of simulators
+	in the smart grid area: power system simulators, communication network
+	simulators, and combined power and communication simulators. To summarize
+	the findings from this survey, we classify the different simulators
+	according to targeted use cases, simulation model level of detail,
+	and architecture. To conclude, we discuss the use of standards and
+	multi-agent based modeling in smart grid simulation.},
+  doi = {10.1109/SURV.2014.021414.00116},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\mets2014cst.pdf:PDF},
+  issn = {1553-877X},
+  keywords = {power system simulation;smart power grids;telecommunication networks;associated
+	ICT infrastructure;combined power-communication simulators;communication
+	network simulation;cost-effective smart grid analysis;electricity
+	grid;multiagent based modeling;power grid;power network simulation;power
+	system simulators;smart grid simulators;Communication networks;Context;Monitoring;Real-time
+	systems;Smart grids;Smart grid;communication network;power system;simulation}
+}
+
+@ARTICLE{Narayanan2012,
+  author = {Narayanan, Anu},
+  title = {The Emerging Smart Grid: Opportunities for Increased System Reliability
+	and Potential Security Risks},
+  year = {2012},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\The Emerging Smart Grid - Opportunities for Increased System Reliability and Potential Security Risks.pdf:PDF}
+}
+
+@ARTICLE{Palensky2013b,
+  author = {Peter Palensky and Friederich Kupzog},
+  title = {Smart Grids},
+  journal = {Annual Reviews of Environment and Resources},
+  year = {2013},
+  volume = {38},
+  pages = {201-226},
+  owner = {kazmij},
+  timestamp = {2014.11.25},
+  url = {http://www.annualreviews.org/doi/abs/10.1146/annurev-environ-031312-102947}
+}
+
+@ARTICLE{Palensky2013,
+  author = {Palensky, Peter and Widl, Edmund and Elsheikh, Atiyah},
+  title = {Simulating cyber-physical energy systems: challenges, tools and methods},
+  journal = {Systems, Man, and Cybernetics: Systems, IEEE Transactions on},
+  year = {2014},
+  volume = {44},
+  pages = {318-326},
+  number = {3},
+  month = {March},
+  doi = {10.1109/TSMCC.2013.2265739},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Palensky2013.pdf:PDF},
+  keywords = {digital simulation;power engineering computing;power grids;characteristic
+	test model;continuous time-based models;cyber-physical energy systems;discrete
+	event-based models;Buildings;Computational modeling;Heating;Object
+	oriented modeling;Schedules;Synchronization;Thermal resistance;Cyber-physical
+	energy systems;hybrid systems;modeling;simulation;software tools},
+  publisher = {IEEE}
+}
+
+@ARTICLE{Palensky2013a,
+  author = {Palensky, Peter and Widl, Edmund and Stifter, Matthias and Elsheikh,
+	Atiyah},
+  title = {Modeling Intelligent Energy Systems: Co-Simulation Platform for Validating
+	Flexible-Demand EV Charging Management.},
+  journal = {IEEE Trans. Smart Grid},
+  year = {2013},
+  volume = {4},
+  pages = {1939--1947},
+  number = {4},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\Palensky2013a.pdf:PDF}
+}
+
+@INPROCEEDINGS{schwan2010probabilistic,
+  author = {Schwan, Michael and Ettinger, Andreas and Gawlik, Wolfgang},
+  title = {Probabilistic reliability calculation of transmission networks},
+  booktitle = {Probabilistic Methods Applied to Power Systems (PMAPS), 2010 IEEE
+	11th International Conference on},
+  year = {2010},
+  pages = {581--586},
+  organization = {IEEE},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\05528951.pdf:PDF}
+}
+
+@ARTICLE{Sierla2013,
+  author = {Sierla, Seppo and O’Halloran, Bryan M and Karhela, Tommi and Papakonstantinou,
+	Nikolaos and Tumer, Irem Y},
+  title = {Common cause failure analysis of cyber--physical systems situated
+	in constructed environments},
+  journal = {Research in Engineering Design},
+  year = {2013},
+  volume = {24},
+  pages = {375--394},
+  number = {4},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-art%3A10.1007%2Fs00163-013-0156-2.pdf:PDF},
+  publisher = {Springer}
+}
+
+@INPROCEEDINGS{Stifter2014,
+  author = {Stifter, Matthias and Kazmi, Jawad Haider and Andren, Filip and Strasser,
+	Thomas},
+  title = {Co-simulation of power systems, communication and controls},
+  booktitle = {Modeling and Simulation of Cyber-Physical Energy Systems (MSCPES),
+	2014 Workshop on},
+  year = {2014},
+  pages = {1--6},
+  organization = {IEEE},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\MSCPES2014_CoSim_OMNeT_final.pdf:PDF}
+}
+
+@INCOLLECTION{Wafler2013,
+  author = {W{\"a}fler, Jonas and Heegaard, Poul E},
+  title = {Interdependency Modeling in Smart Grid and the Influence of ICT on
+	Dependability},
+  booktitle = {Advances in Communication Networking},
+  publisher = {Springer},
+  year = {2013},
+  pages = {185--196},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\aa-chp%3A10.1007%2F978-3-642-40552-5_17.pdf:PDF}
+}
+
+@PHDTHESIS{Wang2009,
+  author = {Wang, Xiaofeng},
+  title = {Event-triggering in cyber-physical systems},
+  school = {University of Notre Dame},
+  year = {2009},
+  file = {:D\:\\workbench\\LitProject\\AllLiterature\\Phd\\CPS - Event-triggering in cyber-physical systems.pdf:PDF}
+}
+

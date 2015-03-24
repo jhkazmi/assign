@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{BK11}
+F.~Bergero and E.~Kofman.
+\newblock {PowerDEVS. A Tool for Hybrid System Modeling and Real Time
+  Simulation}.
+\newblock {\em Simulation: Transactions of the Society for Modeling and
+  Simulation International}, 87(1--2):113--132, 2011.
+
+\bibitem{Kof03b}
+E.~Kofman.
+\newblock {Quantized-State Control. A Method for Discrete Event Control of
+  Continuous Systems.}
+\newblock {\em Latin American Applied Research}, 33(4):399--406, 2003.
+
+\bibitem{ManRTI}
+P.~Mantegazza, E.~L. Dozio, and S.~Papacharalambous.
+\newblock Rtai: Real time application interface.
+\newblock {\em Linux J.}, 2000(72es), April 2000.
+
+\end{thebibliography}
