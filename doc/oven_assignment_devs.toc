@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Task-1 DEVS-Model for Baking Oven}{1}
 \contentsline {subsection}{\numberline {1.1}Description}{1}
 \contentsline {subsection}{\numberline {1.2}Paste arrive scenario}{1}
-\contentsline {section}{\numberline {2}Task-2 : Implementation of Baking Oven Model in PowerDEVS}{1}
+\contentsline {section}{\numberline {2}Task-2 : Implementation of Baking Oven Model in \texttt {PowerDEVS}\nobreakspace {}}{2}
 \contentsline {subsection}{\numberline {2.1}Paste structure}{2}
 \contentsline {subsection}{\numberline {2.2}Paste Generator}{2}
 \contentsline {subsection}{\numberline {2.3}Oven}{5}
@@ -16,5 +16,3 @@
 \contentsline {subsubsection}{\numberline {3.3.5}The Simulation Interface }{15}
 \contentsline {subsubsection}{\numberline {3.3.6}A running instance of Scilab}{15}
 \contentsline {section}{\numberline {4}Task 4 : Simulation Results}{15}
-\contentsline {section}{\numberline {A}Code Listings}{19}
-\contentsline {subsection}{\numberline {A.1}UC 1}{19}
