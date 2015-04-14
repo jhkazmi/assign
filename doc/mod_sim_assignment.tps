@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=oven_assignment_devs.tex
 
 [Frame0_View0,0]
-TopLine=442
-Cursor=6807
+TopLine=765
+Cursor=32394
 
 [SessionInfo]
 FrameCount=1
