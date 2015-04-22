@@ -20,6 +20,26 @@ Coupled
         {
         Atomic
             {
+            Name = Oven
+            Ports = 1 ; 1
+            Path = discrete/oven.h
+            Description = Atomic DEVS model
+            Graphic
+                {
+                Position = -8730 ; -120
+                Dimension = 975 ; 990
+                Direction = Right
+                Color = 15
+                Icon = %basicelements%basic.bmp
+                }
+            Parameters
+                {
+                State one per minute cost = Val; 0.5 ; 
+                State two per minute cost = Val; 1 ; 
+                }
+            }
+        Atomic
+            {
             Name = PasteGenerator
             Ports = 0 ; 1
             Path = discrete/pastgen.h
@@ -72,26 +92,6 @@ Coupled
             }
         Atomic
             {
-            Name = Oven
-            Ports = 1 ; 1
-            Path = discrete/oven.h
-            Description = Atomic DEVS model
-            Graphic
-                {
-                Position = -8730 ; -120
-                Dimension = 975 ; 990
-                Direction = Right
-                Color = 15
-                Icon = %basicelements%basic.bmp
-                }
-            Parameters
-                {
-                State one per minute cost = Val; 0.5 ; 
-                State two per minute cost = Val; 1 ; 
-                }
-            }
-        Atomic
-            {
             Name = DiskOutput
             Ports = 1 ; 0
             Path = sinks\to_disk.h
@@ -111,29 +111,29 @@ Coupled
             }
         Line
             {
-            Source = Cmp ;  1 ;  1 ; 0
-            Sink = Cmp ;  3 ;  1 ; -1
+            Source = Cmp ;  2 ;  1 ; 0
+            Sink = Cmp ;  1 ;  1 ; -1
             PointX = -11100 ; -11100 ; -8865
             PointY = 75 ; 375 ; 375
             }
         Line
             {
-            Source = Cmp ;  3 ;  1 ; 0
+            Source = Cmp ;  1 ;  1 ; 0
             Sink = Cmp ;  4 ;  1 ; -1
             PointX = -7650 ; -6825 ; -6825 ; -5340
             PointY = 375 ; 375 ; 1350 ; 1350
             }
         Line
             {
-            Source = Cmp ;  1 ;  1 ; 0
-            Sink = Cmp ;  2 ;  1 ; -1
+            Source = Cmp ;  2 ;  1 ; 0
+            Sink = Cmp ;  3 ;  1 ; -1
             PointX = -11100 ; -11100 ; -6825 ; -6825 ; -5340
             PointY = 75 ; -900 ; -900 ; 75 ; 75
             }
         Line
             {
-            Source = Cmp ;  3 ;  1 ; 0
-            Sink = Cmp ;  2 ;  2 ; -1
+            Source = Cmp ;  1 ;  1 ; 0
+            Sink = Cmp ;  3 ;  2 ; -1
             PointX = -7650 ; -7650 ; -5340
             PointY = 375 ; 375 ; 375
             }

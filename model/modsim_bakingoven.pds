@@ -2,6 +2,11 @@ Root-Coordinator
  {
   Simulator
    {
+    Path = discrete/oven.h
+    Parameters = 5.000000e-01,1.000000e+00
+   }
+  Simulator
+   {
     Path = discrete/pastgen.h
     Parameters = 2.000000e+01,1.000000e+01,2.000000e+00,5.000000e+01,1.500000e+01,2.500000e+01,2.000000e+01,1.000000e+01,5.000000e+00
    }
@@ -9,11 +14,6 @@ Root-Coordinator
    {
     Path = sinks/gnuplot.h
     Parameters = 2.000000e+00,"set xrange [0:%tf] @ set grid @ set title 'Modeling and Simulation 2014W Project (DEVS - Baking Oven)'","title 'Paste Arrival'","title 'Bread Arrival'","","",""
-   }
-  Simulator
-   {
-    Path = discrete/oven.h
-    Parameters = 5.000000e-01,1.000000e+00
    }
   Simulator
    {
@@ -28,9 +28,9 @@ Root-Coordinator
    }
   IC
    {
-    (0,0);(2,0)
-    (2,0);(3,0)
-    (0,0);(1,0)
-    (2,0);(1,1)
+    (1,0);(0,0)
+    (0,0);(3,0)
+    (1,0);(2,0)
+    (0,0);(2,1)
    }
  }
