@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.20)  9 APR 2015 14:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.20)  9 APR 2015 14:57
 entering extended mode
 **oven_assignment_devs.tex
 (C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.tex
@@ -240,13 +240,13 @@ Overfull \hbox (10.33122pt too wide) in paragraph at lines 153--153
 []\OT1/cmr/bx/n/14.4 Task-2 : Im-ple-men-ta-tion of Bak-ing Oven Model
  []
 
-[1] <model.PNG, id=26, 388.45125pt x 170.13562pt>
+<model.PNG, id=23, 388.45125pt x 170.13562pt>
 File: model.PNG Graphic file (type png)
  <use model.PNG>
 Package pdftex.def Info: model.PNG used on input line 165.
 (pdftex.def)             Requested size: 310.76141pt x 136.10867pt.
-
-<pastegen_params.PNG, id=27, 293.59688pt x 475.7775pt>
+ [1]
+<pastegen_params.PNG, id=28, 293.59688pt x 475.7775pt>
 File: pastegen_params.PNG Graphic file (type png)
 
 <use pastegen_params.PNG>
@@ -266,32 +266,12 @@ Package pdftex.def Info: oven_params.PNG used on input line 300.
 (pdftex.def)             Requested size: 189.10675pt x 263.78584pt.
 
 [5] [6 <C:/Users/AhmadI/Documents/GitHub/assign/doc/oven_params.PNG>] [7]
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 466--472
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 470--472
-
- []
-
-<Fig1.png, id=61, 770.88pt x 496.85625pt>
+[9] <Fig1.png, id=61, 770.88pt x 496.85625pt>
 File: Fig1.png Graphic file (type png)
  <use Fig1.png>
 Package pdftex.def Info: Fig1.png used on input line 475.
@@ -308,9 +288,8 @@ File: Fig3.png Graphic file (type png)
  <use Fig3.png>
 Package pdftex.def Info: Fig3.png used on input line 507.
 (pdftex.def)             Requested size: 172.5pt x 97.43121pt.
- [11 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig2.png> <C:/Users/AhmadI/Do
-cuments/GitHub/assign/doc/Fig3.png>] <Fig4.png, id=74, 913.91437pt x 534.49687p
-t>
+
+<Fig4.png, id=69, 913.91437pt x 534.49687pt>
 File: Fig4.png Graphic file (type png)
  <use Fig4.png>
 Package pdftex.def Info: Fig4.png used on input line 516.
@@ -318,21 +297,21 @@ Package pdftex.def Info: Fig4.png used on input line 516.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-
-<Fig5.png, id=75, 193.32225pt x 289.08pt>
+ [11 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig2.png> <C:/Users/AhmadI/Do
+cuments/GitHub/assign/doc/Fig3.png>] <Fig5.png, id=75, 193.32225pt x 289.08pt>
 File: Fig5.png Graphic file (type png)
  <use Fig5.png>
 Package pdftex.def Info: Fig5.png used on input line 525.
 (pdftex.def)             Requested size: 172.5pt x 257.95526pt.
 
-<Fig6.png, id=76, 905.784pt x 522.15076pt>
+[12 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig4.png> <C:/Users/AhmadI/Doc
+uments/GitHub/assign/doc/Fig5.png>] <Fig6.png, id=80, 905.784pt x 522.15076pt>
 File: Fig6.png Graphic file (type png)
- <use Fig6.png>
+
+<use Fig6.png>
 Package pdftex.def Info: Fig6.png used on input line 537.
 (pdftex.def)             Requested size: 310.4979pt x 178.98694pt.
- [12 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig4.png>] [13 <C:/Users/Ahma
-dI/Documents/GitHub/assign/doc/Fig5.png> <C:/Users/AhmadI/Documents/GitHub/assi
-gn/doc/Fig6.png>]
+ [13 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig6.png>]
 <Fig7.png, id=85, 483.60675pt x 331.83975pt>
 File: Fig7.png Graphic file (type png)
  <use Fig7.png>
@@ -351,9 +330,6 @@ File: Fig9.png Graphic file (type png)
 Package pdftex.def Info: Fig9.png used on input line 573.
 (pdftex.def)             Requested size: 241.49895pt x 31.7175pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 <Fig10.png, id=92, 545.6385pt x 313.17pt>
 File: Fig10.png Graphic file (type png)
  <use Fig10.png>
@@ -365,7 +341,8 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [15]
+ [15 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig8.png> <C:/Users/AhmadI/Do
+cuments/GitHub/assign/doc/Fig9.png>]
 Overfull \hbox (1.49698pt too wide) in paragraph at lines 660--660
 []\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (st
 ate=0)[] 
@@ -377,8 +354,7 @@ Overfull \hbox (17.24684pt too wide) in paragraph at lines 660--660
 p2Time=25[] 
  []
 
-[16 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig8.png> <C:/Users/AhmadI/Doc
-uments/GitHub/assign/doc/Fig9.png>]
+[16 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig10.png>]
 Overfull \hbox (17.24684pt too wide) in paragraph at lines 660--660
 []\OT1/cmtt/m/n/10 [PASTEGEN] Generated paste number 0 with mass=2, p1Time=29, 
 p2Time=23[] 
@@ -402,8 +378,7 @@ Overfull \hbox (1.49698pt too wide) in paragraph at lines 660--660
 ate=0)[] 
  []
 
-(C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.bbl [17 <C:/U
-sers/AhmadI/Documents/GitHub/assign/doc/Fig10.png>]) [18]
+(C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.bbl) [17]
 (C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -416,11 +391,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3737 strings out of 493921
  49515 string characters out of 3144873
- 250633 words of memory out of 3000000
+ 252633 words of memory out of 3000000
  6987 multiletter control sequences out of 15000+200000
  11107 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,8n,58p,1724b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,8n,58p,1719b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -435,9 +410,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on oven_assignment_devs.pdf (21 pages, 762723 bytes).
+Output written on oven_assignment_devs.pdf (20 pages, 762981 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

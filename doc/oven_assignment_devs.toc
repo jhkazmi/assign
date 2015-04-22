@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Task-1 DEVS-Model for Baking Oven}{1}
 \contentsline {subsection}{\numberline {1.1}Description}{1}
 \contentsline {subsection}{\numberline {1.2}Paste arrive scenario}{1}
-\contentsline {section}{\numberline {2}Task-2 : Implementation of Baking Oven Model in \texttt {PowerDEVS}\nobreakspace {}}{2}
+\contentsline {section}{\numberline {2}Task-2 : Implementation of Baking Oven Model in \texttt {PowerDEVS}\nobreakspace {}}{1}
 \contentsline {subsection}{\numberline {2.1}Paste structure}{2}
 \contentsline {subsection}{\numberline {2.2}Paste Generator}{2}
 \contentsline {subsection}{\numberline {2.3}Oven}{5}
@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {3.1}DEVS-Formalism}{9}
 \contentsline {subsection}{\numberline {3.2}DEVS-Model for Baking Oven}{10}
 \contentsline {subsection}{\numberline {3.3}Simulation Tool Experiences}{10}
-\contentsline {subsubsection}{\numberline {3.3.1}The Model Editor}{11}
-\contentsline {subsubsection}{\numberline {3.3.2}The Atomic Editor}{12}
-\contentsline {subsubsection}{\numberline {3.3.3}Structure Generator}{14}
-\contentsline {subsubsection}{\numberline {3.3.4}The Preprocessor}{15}
-\contentsline {subsubsection}{\numberline {3.3.5}The Simulation Interface }{15}
+\contentsline {subsubsection}{\numberline {3.3.1}The Model Editor}{10}
+\contentsline {subsubsection}{\numberline {3.3.2}The Atomic Editor}{13}
+\contentsline {subsubsection}{\numberline {3.3.3}Structure Generator}{13}
+\contentsline {subsubsection}{\numberline {3.3.4}The Preprocessor}{14}
+\contentsline {subsubsection}{\numberline {3.3.5}The Simulation Interface }{14}
 \contentsline {subsubsection}{\numberline {3.3.6}A running instance of Scilab}{15}
-\contentsline {section}{\numberline {4}Task 4 : Simulation Results}{15}
+\contentsline {section}{\numberline {4}Task 4 : Simulation Results}{16}
