@@ -1,17 +1,24 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.20)  9 APR 2015 14:57
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.3.11)  14 APR 2015 19:40
->>>>>>> origin/master
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.20)  21 APR 2015 13:09
 entering extended mode
 **oven_assignment_devs.tex
-(oven_assignment_devs.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+
+(C:\Users\AhmadI\Downloads\assign-master\assign-master\doc\oven_assignment_devs
+.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -25,22 +32,25 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -81,39 +91,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count100
@@ -121,7 +133,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count101
 \lst@gtempboxa=\box28
 \lst@token=\toks20
@@ -135,34 +147,38 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \lst@lineno=\count106
 \lst@maxwidth=\dimen117
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count107
 \lst@skipnumbers=\count108
 \lst@framebox=\box29
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 130.
 )
 \c@theorem=\count109
- ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-) (oven_assignment_devs.aux
+)
+(C:\Users\AhmadI\Downloads\assign-master\assign-master\doc\oven_assignment_devs
+.aux
 
 LaTeX Warning: Label `o_ta' multiply defined.
 
@@ -179,7 +195,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count110
 \scratchdimen=\dimen118
@@ -201,14 +217,17 @@ Package pdftex.def Info: TU-Signet.png used on input line 99.
 (pdftex.def)             Requested size: 36.93024pt x 36.93024pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./TU-Signet.png>] (oven_assignment_devs.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/AhmadI/Downloads
+/assign-master/assign-master/doc/TU-Signet.png>]
+(C:\Users\AhmadI\Downloads\assign-master\assign-master\doc\oven_assignment_devs
+.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
@@ -221,137 +240,84 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 Chapter 1.
 [1
 
-<<<<<<< HEAD
-<model.PNG, id=23, 388.45125pt x 170.13562pt>
-File: model.PNG Graphic file (type png)
- <use model.PNG>
-Package pdftex.def Info: model.PNG used on input line 165.
-(pdftex.def)             Requested size: 310.76141pt x 136.10867pt.
- [1]
-<pastegen_params.PNG, id=28, 293.59688pt x 475.7775pt>
-File: pastegen_params.PNG Graphic file (type png)
-=======
 ] [2]
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--171
->>>>>>> origin/master
+Underfull \hbox (badness 10000) in paragraph at lines 169--175
 
  []
 
-<<<<<<< HEAD
-[4] <oven_params.PNG, id=44, 236.38312pt x 329.73187pt>
-File: oven_params.PNG Graphic file (type png)
- <use oven_params.PNG>
-Package pdftex.def Info: oven_params.PNG used on input line 300.
-(pdftex.def)             Requested size: 189.10675pt x 263.78584pt.
-
-[5] [6 <C:/Users/AhmadI/Documents/GitHub/assign/doc/oven_params.PNG>] [7]
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 466--472
-
- []
-
-[9] <Fig1.png, id=61, 770.88pt x 496.85625pt>
-=======
 <Fig1.png, id=29, 770.88pt x 496.85625pt>
->>>>>>> origin/master
 File: Fig1.png Graphic file (type png)
  <use Fig1.png>
-Package pdftex.def Info: Fig1.png used on input line 174.
+Package pdftex.def Info: Fig1.png used on input line 178.
 (pdftex.def)             Requested size: 345.0pt x 222.36263pt.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 180.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 184.
  [3
 
-] <Fig2.png, id=34, 772.0845pt x 431.211pt>
+]
+<Fig2.png, id=34, 772.0845pt x 431.211pt>
 File: Fig2.png Graphic file (type png)
  <use Fig2.png>
-Package pdftex.def Info: Fig2.png used on input line 192.
+Package pdftex.def Info: Fig2.png used on input line 196.
 (pdftex.def)             Requested size: 345.0pt x 192.68773pt.
 
 <Fig3.png, id=35, 376.40625pt x 212.59425pt>
 File: Fig3.png Graphic file (type png)
  <use Fig3.png>
-<<<<<<< HEAD
-Package pdftex.def Info: Fig3.png used on input line 507.
-(pdftex.def)             Requested size: 172.5pt x 97.43121pt.
-
-<Fig4.png, id=69, 913.91437pt x 534.49687pt>
-=======
-Package pdftex.def Info: Fig3.png used on input line 202.
+Package pdftex.def Info: Fig3.png used on input line 206.
 (pdftex.def)             Requested size: 345.0pt x 194.86891pt.
- [4 <./Fig1.png>]
+ [4 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig1.png>]
 <Fig4.png, id=41, 913.91437pt x 534.49687pt>
->>>>>>> origin/master
 File: Fig4.png Graphic file (type png)
  <use Fig4.png>
-Package pdftex.def Info: Fig4.png used on input line 211.
+Package pdftex.def Info: Fig4.png used on input line 215.
 (pdftex.def)             Requested size: 345.0pt x 201.76521pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-<<<<<<< HEAD
- [11 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig2.png> <C:/Users/AhmadI/Do
-cuments/GitHub/assign/doc/Fig3.png>] <Fig5.png, id=75, 193.32225pt x 289.08pt>
-File: Fig5.png Graphic file (type png)
- <use Fig5.png>
-Package pdftex.def Info: Fig5.png used on input line 525.
-(pdftex.def)             Requested size: 172.5pt x 257.95526pt.
-
-[12 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig4.png> <C:/Users/AhmadI/Doc
-uments/GitHub/assign/doc/Fig5.png>] <Fig6.png, id=80, 905.784pt x 522.15076pt>
-File: Fig6.png Graphic file (type png)
-
-<use Fig6.png>
-Package pdftex.def Info: Fig6.png used on input line 537.
-(pdftex.def)             Requested size: 310.4979pt x 178.98694pt.
- [13 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig6.png>]
-<Fig7.png, id=85, 483.60675pt x 331.83975pt>
-=======
- [5 <./Fig2.png> <./Fig3.png>]
+ [5 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig2.png> <C:/Us
+ers/AhmadI/Downloads/assign-master/assign-master/doc/Fig3.png>]
 <Fig5.png, id=47, 193.32225pt x 289.08pt>
 File: Fig5.png Graphic file (type png)
  <use Fig5.png>
-Package pdftex.def Info: Fig5.png used on input line 220.
+Package pdftex.def Info: Fig5.png used on input line 224.
 (pdftex.def)             Requested size: 345.0pt x 515.91054pt.
- <Fig6.png, id=48, 905.784pt x 522.15076pt>
+
+<Fig6.png, id=48, 905.784pt x 522.15076pt>
 File: Fig6.png Graphic file (type png)
  <use Fig6.png>
-Package pdftex.def Info: Fig6.png used on input line 232.
+Package pdftex.def Info: Fig6.png used on input line 236.
 (pdftex.def)             Requested size: 345.0pt x 198.87349pt.
-
-[6 <./Fig4.png>] <Fig7.png, id=52, 483.60675pt x 331.83975pt>
->>>>>>> origin/master
+ [6 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig4.png>]
+<Fig7.png, id=52, 483.60675pt x 331.83975pt>
 File: Fig7.png Graphic file (type png)
  <use Fig7.png>
-Package pdftex.def Info: Fig7.png used on input line 245.
+Package pdftex.def Info: Fig7.png used on input line 249.
 (pdftex.def)             Requested size: 345.0pt x 236.73196pt.
 
 <Fig8.png, id=53, 165.0165pt x 296.90926pt>
 File: Fig8.png Graphic file (type png)
  <use Fig8.png>
-Package pdftex.def Info: Fig8.png used on input line 258.
+Package pdftex.def Info: Fig8.png used on input line 262.
 (pdftex.def)             Requested size: 241.49895pt x 434.52138pt.
- <Fig9.png, id=54, 522.753pt x 68.6565pt>
+
+<Fig9.png, id=54, 522.753pt x 68.6565pt>
 File: Fig9.png Graphic file (type png)
  <use Fig9.png>
-Package pdftex.def Info: Fig9.png used on input line 265.
+Package pdftex.def Info: Fig9.png used on input line 269.
 (pdftex.def)             Requested size: 345.0pt x 45.31027pt.
 
-<<<<<<< HEAD
-<Fig10.png, id=92, 545.6385pt x 313.17pt>
-=======
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <Fig10.png, id=55, 545.6385pt x 313.17pt>
->>>>>>> origin/master
 File: Fig10.png Graphic file (type png)
  <use Fig10.png>
-Package pdftex.def Info: Fig10.png used on input line 277.
+Package pdftex.def Info: Fig10.png used on input line 281.
 (pdftex.def)             Requested size: 345.0pt x 198.01492pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -359,118 +325,115 @@ Missing character: There is no “ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
-<<<<<<< HEAD
- [15 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig8.png> <C:/Users/AhmadI/Do
-cuments/GitHub/assign/doc/Fig9.png>]
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 660--660
-[]\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (st
-ate=0)[] 
-=======
- [7] [8] [9 <./Fig5.png>] [10 <./Fig6.png> <./Fig7.png>]
-[11 <./Fig8.png> <./Fig9.png>] [12 <./Fig10.png>]
+ [7] [8] [9 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig5.png
+>] [10 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig6.png> <C:
+/Users/AhmadI/Downloads/assign-master/assign-master/doc/Fig7.png>] [11 <C:/User
+s/AhmadI/Downloads/assign-master/assign-master/doc/Fig8.png> <C:/Users/AhmadI/D
+ownloads/assign-master/assign-master/doc/Fig9.png>] [12 <C:/Users/AhmadI/Downlo
+ads/assign-master/assign-master/doc/Fig10.png>]
 Chapter 3.
 <model.PNG, id=81, 388.45125pt x 170.13562pt>
 File: model.PNG Graphic file (type png)
  <use model.PNG>
-Package pdftex.def Info: model.PNG used on input line 298.
+Package pdftex.def Info: model.PNG used on input line 302.
 (pdftex.def)             Requested size: 271.914pt x 119.0941pt.
  [13
 
- <./model.PNG>]
+ <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/model.PNG>]
 <pastegen_params.PNG, id=88, 293.59688pt x 475.7775pt>
 File: pastegen_params.PNG Graphic file (type png)
- <use pastegen_params.PNG>
-Package pdftex.def Info: pastegen_params.PNG used on input line 328.
+
+<use pastegen_params.PNG>
+Package pdftex.def Info: pastegen_params.PNG used on input line 332.
 (pdftex.def)             Requested size: 234.8778pt x 380.6225pt.
- [14] [15 <./pastegen_params.PNG>]
-Overfull \hbox (71.86227pt too wide) in paragraph at lines 384--385
-\OT1/cmr/m/n/10 max-i-mum al-lowed val-ues for a vari-able of type dou-ble (\OT1/cmtt/m/n/10 std::numeric[]limits<double
->::max()\OT1/cmr/m/n/10 ). 
->>>>>>> origin/master
+ [14] [15 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/pastegen_p
+arams.PNG>]
+Overfull \hbox (71.86227pt too wide) in paragraph at lines 388--389
+\OT1/cmr/m/n/10 max-i-mum al-lowed val-ues for a vari-able of type dou-ble (\OT
+1/cmtt/m/n/10 std::numeric[]limits<double>::max()\OT1/cmr/m/n/10 ). 
  []
 
 [16] <oven_params.PNG, id=101, 236.38312pt x 329.73187pt>
 File: oven_params.PNG Graphic file (type png)
- <use oven_params.PNG>
-Package pdftex.def Info: oven_params.PNG used on input line 433.
+
+<use oven_params.PNG>
+Package pdftex.def Info: oven_params.PNG used on input line 437.
 (pdftex.def)             Requested size: 189.10675pt x 263.78584pt.
- [17 <./oven_params.PNG>] [18] [19]
-[20]
+ [17 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/oven_params.PNG
+>] [18] [19] [20]
 Chapter 4.
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (state=0)[] 
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 655--655
+[]\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (st
+ate=0)[] 
  []
 
-<<<<<<< HEAD
-[16 <C:/Users/AhmadI/Documents/GitHub/assign/doc/Fig10.png>]
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 660--660
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 655--655
+[]\OT1/cmtt/m/n/10 [PASTEGEN] Generated paste number 1 with mass=3, p1Time=35, 
+p2Time=25[] 
+ []
+
+
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 655--655
 []\OT1/cmtt/m/n/10 [PASTEGEN] Generated paste number 0 with mass=2, p1Time=29, 
 p2Time=23[] 
-=======
-
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [PASTEGEN] Generated paste number 1 with mass=3, p1Time=35, p2Time=25[] 
->>>>>>> origin/master
  []
 
 
-Overfull \hbox (17.24684pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [PASTEGEN] Generated paste number 0 with mass=2, p1Time=29, p2Time=23[] 
- []
-
-
-Overfull \hbox (6.74693pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [OVEN]->[OUTPUT] clock=79, Mass=3, p1Time=35, p2Time=25, Cost=42.5,[] 
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 655--655
+[]\OT1/cmtt/m/n/10 [OVEN]->[OUTPUT] clock=79, Mass=3, p1Time=35, p2Time=25, Cos
+t=42.5,[] 
  []
 
 [21
 
 ]
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [OVEN]->[OUTPUT] clock=131, Mass=2, p1Time=29, p2Time=23, Cost=37.5,[] 
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 655--655
+[]\OT1/cmtt/m/n/10 [OVEN]->[OUTPUT] clock=131, Mass=2, p1Time=29, p2Time=23, Co
+st=37.5,[] 
  []
 
-<<<<<<< HEAD
-(C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.bbl) [17]
-(C:\Users\AhmadI\Documents\GitHub\assign\doc\oven_assignment_devs.aux)
-=======
 
-Overfull \hbox (1.49698pt too wide) in paragraph at lines 651--651
-[]\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (state=0)[] 
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 655--655
+[]\OT1/cmtt/m/n/10 [OVEN]->[TA] No paste to bake, waiting for the paste INF (st
+ate=0)[] 
  []
 
 <result_plot.PNG, id=118, 771.63281pt x 395.22656pt>
 File: result_plot.PNG Graphic file (type png)
  <use result_plot.PNG>
-Package pdftex.def Info: result_plot.PNG used on input line 659.
+Package pdftex.def Info: result_plot.PNG used on input line 663.
 (pdftex.def)             Requested size: 385.81546pt x 197.6128pt.
 
-Overfull \hbox (40.81546pt too wide) in paragraph at lines 659--660
+Overfull \hbox (40.81546pt too wide) in paragraph at lines 663--664
  [][] 
  []
 
-(oven_assignment_devs.bbl [22] [23 <./result_plot.PNG>]) [24
 
-] (oven_assignment_devs.aux)
->>>>>>> origin/master
+(C:\Users\AhmadI\Downloads\assign-master\assign-master\doc\oven_assignment_devs
+.bbl [22] [23 <C:/Users/AhmadI/Downloads/assign-master/assign-master/doc/result
+_plot.PNG>]) [24
+
+]
+(C:\Users\AhmadI\Downloads\assign-master\assign-master\doc\oven_assignment_devs
+.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 291 ({)
+### simple group (level 1) entered at line 295 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 3737 strings out of 493921
- 49515 string characters out of 3144873
- 252633 words of memory out of 3000000
- 6987 multiletter control sequences out of 15000+200000
- 11107 words of font info for 44 fonts, out of 3000000 for 9000
+ 3766 strings out of 493921
+ 50056 string characters out of 3144873
+ 225051 words of memory out of 3000000
+ 7015 multiletter control sequences out of 15000+200000
+ 12189 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,8n,58p,1719b,1577s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,8n,58p,1706b,1670s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
@@ -485,30 +448,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on oven_assignment_devs.pdf (20 pages, 762981 bytes).
-PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
-=======
- 3764 strings out of 493698
- 49050 string characters out of 3144412
- 228425 words of memory out of 3000000
- 7046 multiletter control sequences out of 15000+200000
- 12189 words of font info for 48 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 33i,8n,58p,1708b,1670s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on oven_assignment_devs.pdf (27 pages, 813909 bytes).
+Output written on oven_assignment_devs.pdf (27 pages, 778603 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
->>>>>>> origin/master
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

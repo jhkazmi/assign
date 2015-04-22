@@ -132,12 +132,8 @@ March, 2015
 
 The task of this project is to implement a simple DEVS-Model of a baking-oven with a DEVS-able simulation. The implemented model is described as follows;
 
-At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) cost K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes a stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$. If process phase p=1, the paste is baking for the duration $T_1$. That is, the next event to be triggered is an internal event, which happened exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$, which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is $T_2$. Therefore after T2 the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computed an "output-message". In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable K plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables m and K to 0 also resets the process phase $p$ to 0, meaning "waiting for the next paste to arrive.''
+At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) costs K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$. If process phase p=1, the paste is baking for the duration $T_1$. That is, the next event to be triggered is an internal event, which happens exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$, which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is $T_2$. Therefore after T2 the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computes an "output-message". In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable K plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables m and K to 0 also resets the process phase $p$ to 0, meaning "waiting for the next paste to arrive.''
 
-<<<<<<< HEAD
-At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) costs K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes a stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$. If process phase p=1, the paste is baking for the duration $T_1$. That is, the next event to be triggered is an internal event, which happened exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$, which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is $T_2$. Therefore after $T_2$ the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computed an "output-message". In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable $K$ plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables $m$ and $K$ to 0 also resets the process phase $p$ to 0, meaning ''waiting for the next paste to arrive.''
-=======
->>>>>>> origin/master
 \vspace{1cm}
 
 %\noindent {\large \bfseries{Keywords:~}} 
@@ -153,13 +149,8 @@ At a certain point in time, portion of a paste with the attributes mass m and (u
 
 \section{DEVS-Model for Baking Oven}
 
-<<<<<<< HEAD
-The task of this project is to implement an simple DEVS-Model of a baking-oven with a DEVS-able simulation. The implemented model is described as follows;
-At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) costs K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes a stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$ . If process phase p=1, the paste is baking for the duration T1. That is, the next event to be triggered is an internal event, which happened exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$ , which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is T2. Therefore after T2 the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computed an "output-message". In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable K plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables m and K to 0 also resets the process phase p to 0, meaning "waiting for the next paste to arrive." 
-=======
 The task of this project is to implement a simple DEVS-Model of a baking-oven with a DEVS-able simulation. The implemented model is described as follows;
-At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) cost K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes a stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$ . If process phase p=1, the paste is baking for the duration T1. That is, the next event to be triggered is an internal event, which happened exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$ , which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is T2. Therefore after T2 the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computed an "output-message''. In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable K plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables m and K to 0 also resets the process phase p to 0, meaning "waiting for the next paste to arrive''. 
->>>>>>> origin/master
+At a certain point in time, portion of a paste with the attributes mass m and (up to now accumulated) cost K arrives at the Oven. If the oven is currently in the waiting - state (i.e. process-phase p=0), then the paste attributes are stored in the oven state variables m and K and the process-phase p is incremented (i.e. p:=1). This is all done by the external transition function $\delta_{ext}$ . If process phase p=1, the paste is baking for the duration T1. That is, the next event to be triggered is an internal event, which happened exactly T1 after the previous external event, where the paste arrived. This internal event leads to the execution of  $\delta_{int}$ , which adds the costs K2 that arose from the baking phase to the accumulated costs K and increments the process phase p to p=2. p=2 means unloading-phase. The duration of the unloading phase is T2. Therefore after T2 the next internal event is triggered which again results in the execution of $\delta_{int}$. But this time , there is an output to be generated as well. So right before $\delta_{int}$ is executed, the output function lambda computed an "output-message''. In our case, the output represents the baked bread, which again has the attributes mass m and costs K. the mass stays the same, so m will be set to the value stored as state variable m. Since the unloading phase also produce costs, the costs K will be set to the value stored as state variable K plus the costs K2 that arose in phase 2. After the output has been calculated, the internal transition function sets the state variables m and K to 0 also resets the process phase p to 0, meaning "waiting for the next paste to arrive''. 
 
 \section{Paste arrive scenario}
 We have implemented a \texttt{Queue} to handle the situation when the process phase p is not zero and a paste arrives. If p is not zero and a paste is ready , it is added to the queue. After the execution of internal function and completion of phase 2 , queue is checked , if it is not empty then paste is picked from the queue on the basis of first in first out (FIFO). 
@@ -167,9 +158,13 @@ We have implemented a \texttt{Queue} to handle the situation when the process ph
 \chapter{DEVS and \pd}
 
 \section{DEVS Formalism}
-DEVS is an acronym for Discrete Event System . This is a formalism that was first introduced by Bernard Zeigler. It is used for the description of discrete event system.  A DEVS model has input events which are processed to produce output events(results). Output events are influenced by  input events and  initial conditions of the model.Figure \ref{atomic_model} shows a basic structure of an atomic model.  An Atomic DEVS model has the following formulation;
+DEVS is an acronym for Discrete Event System . This is a formalism that was first introduced by Bernard Zeigler. It is used for the description of discrete event systems.  A DEVS model has input events which are processed to produce output events(results). Output events are influenced by  input events and  initial conditions of the model.Figure \ref{atomic_model} shows the basic structure of an atomic model.  An Atomic DEVS model has the following formulation;
+
+$M$ = $<$ $X$,$Y$,$S$,$\delta_{ext}$,$\delta_{int}$,$ta$ $>$ 
 
 Where
+
+
 
 $X$ 		: set of input event values, \\
 $Y$ 		: set of possible output event values, \\
@@ -188,12 +183,12 @@ $ta$	  	: Time advance  Function \\
 
 \section{The \pd}
 PowerDEVS is a general purpose software tool for DEVS modeling and simulation oriented to the simulation of hybrid systems. It allows defining atomic DEVS models in C++ language that can be then graphically coupled in hierarchical block diagrams to create more complex systems. The environment automatically translates the graphically coupled models into a C++ code which executes the simulation \cite{BK11}.
-One of the features of PowerDEVS is the synchronization of simulation in real time operating system with real time clock, which allows the design and implementation of synchronous and asynchronous digital controller. PowerDEVS is also efficient tool for real time simulation of physical systems when combined with continuous system simulation library. The interconnection of PowerDEVS with the numerical package Scilab is another attractive feature of PowerDEVS. The variables and functions in the workspace of Scilab can be used by PowerDEVS, and Scilab can process and analyze the result data sent from PowerDEVS.
+One of the features of PowerDEVS is the synchronization of simulation in real time operating systems with real time clock, which allows the design and implementation of synchronous and asynchronous digital controller. PowerDEVS is also an efficient tool for real time simulation of physical systems when combined with continuous system simulation library. The interconnection of PowerDEVS with the numerical package Scilab is another attractive feature of PowerDEVS. The variables and functions in the workspace of Scilab can be used by PowerDEVS, and Scilab can process and analyze the result data sent from PowerDEVS.
 
 PowerDEVS is composed of various independent programs: 
 
 \subsection{The Model Editor} 
-It is the main program of PowerDEVS which provides graphical interface for building and managing models and library, launching simulation, editing elementary blocks up to atomic model definitions and link with other application of PowerDEVS. 
+It is the main program of PowerDEVS which provides graphical interface for building and managing models and libraries, launching simulation, editing elementary blocks up to atomic model definitions and links to other application of PowerDEVS. 
  
  
  \begin{figure}[ht!]
@@ -203,7 +198,7 @@ It is the main program of PowerDEVS which provides graphical interface for build
     \label{model_edt}
 \end{figure}
  
-The Model Editor main window shown in Figure \ref{model_edt} is used to create and open models and libraries. At the left the list if libraries can be selected and blocks can be dragged from the libraries to the models. The selected library is active and the blocks are visible under the selected library. Models and libraries can be edited in a model window with the open and new model commands. The model window in Figure \ref{model_win} showing model consists of with four sub models.
+The Model Editor main window shown in Figure \ref{model_edt} is used to create and open models and libraries. At the left the list of libraries can be selected and blocks can be dragged from the libraries to the models. The selected library is active and the blocks are visible under the selected library. Models and libraries can be edited in a model window with the open and new model commands. The model window in Figure \ref{model_win} shows a model consisting of with four sub models.
 
 
  \begin{figure}[ht!]
@@ -213,7 +208,7 @@ The Model Editor main window shown in Figure \ref{model_edt} is used to create a
     \label{model_win}
 \end{figure}
 
-In model windows, the typical graphical editing facilities are provided so that blocks can be copied, re-sized, rotated, etc., while the connections between different ports can be directly drawn. The edit menu or using the right button the features of each blocks either a coupled or an atomic model can be edited. The block edition window shown in Figure \ref{Block_win} is used to configure the graphic appearance of the block and to choose the parameters of blocks. In the case of atomic models the associated code with the DEVS model definitions, can be selected in block edition window. The values of the block parameters can be changed by double clicking on the block as shown in Figure \ref{para_win}. Thus the predefined blocks are taken from the libraries and the parameter values can be changed without editing them.
+In the model window, the typical graphical editing facilities are provided so that blocks can be copied, re-sized, rotated, etc., while the connections between different ports can be directly drawn. Using the edit menu or right mouse button - edit, features of blocks, no matter whether coupled or atomic, can be edited. The block editing window shown in Figure \ref{Block_win} is used to configure the graphic appearance of the block and to choose the parameters of blocks. In the case of atomic models the associated code with the DEVS model definitions, can be selected in the block editing window. The values of the block parameters can be changed by double clicking on the block as shown in Figure \ref{para_win}. Thus the predefined blocks are taken from the libraries and the parameter values can be changed without editing them.
 
 \begin{figure}[ht!]
   \centering
@@ -222,7 +217,7 @@ In model windows, the typical graphical editing facilities are provided so that 
     \label{Block_win}
 \end{figure}
 
-The Coupled models have no an associated code and there are some other extra features which can be modified in block edition window and the edit menu. Various input and output ports of a coupled model are characterized by their names. The order of their appearance in the block can be changed in the edition window. Priorities can be established in editing menu of corresponding model to solve the simultaneous occurrence of event among blocks at the same sub–model.
+The Coupled models have no associated code and there are some other extra features which can be modified in the block editing window and the edit menu. Various input and output ports of a coupled model are characterized by their names. The order of their appearance in the block can be changed in the editing window. Priorities can be established in editing menu of corresponding model to solve the simultaneous occurrence of events among blocks in the same sub–model.
 
 \begin{figure}[ht!]
   \centering
@@ -243,11 +238,11 @@ The Atomic Editor facilitates the editing of C++ code corresponding to each DEVS
     \label{atomic_win}
 \end{figure}
 
-It can be invoked from the Edition Window to edit an existing code or to create a new one. It can be also run directly from Windows since it is a standalone application. The Atomic Editor main window is shown in Figure \ref{atomic_win}. In atomic editor the state variables, the output of the DEVS model and the variables of system parameters are only defined. Then the C++ code for time advance, transition and output functions has to be placed in the corresponding windows and when the model is saved, the code is automatically completed and stored in the corresponding .cpp and .h files. The Atomic Editor was also designed to write a code which is very similar to the DEVS model definition. All the rest of the job related to simulation and implementation topics is automatically performed by the program.
+It can be invoked from the Editing Window to edit an existing code or to create a new one. It also can be run directly from Windows since it is a standalone application. The Atomic Editor main window is shown in Figure \ref{atomic_win}. In atomic editor the state variables, the output of the DEVS model and  system parameters are defined. Then the C++ code for time advance, transition and output functions has to be placed in the corresponding windows and when the model is saved, the code is automatically completed and stored in the corresponding .cpp and .h files. The Atomic Editor was also designed to write a code which is very similar to the DEVS model definition. All the rest of the job related to simulation and implementation topics is automatically performed by the program.
 
 \subsection{Structure Generator}
-A PowerDEVS model is defined by block diagram in dot pdm file which represent system structure and the atomic models in dot h and dot cpp files which are generated by the atomic editor. Then, the simulation is run using Quick Simulation command in the Simulation menu of the Model Editor. The Quick Simulation command performs the simulation and PowerDEVS model is converted into a standalone program that executes the simulation. The final simulation time is only asked in this command and then the simulation is executed.
-The conversion of the model into a simulation program is done in two steps. The Structure Generator converts the model file (.pdm) which contains all the information about the model, into a coupled DEVS specification. The Structure Generator produces a dot pds file which only contains the information about connections, location of atomic models and block parameters, etc., needed to build the simulation file. The coupling specification of the model is also converted into a formal DEVS coupling specification. As the Structure Generator is a standalone program so it can be run directly from the Simulation menu or from the command line. If it is run in that way, it produces a report in dot pds file showing the output. Figure \ref{Struc_gen} shows the out of structure generator.
+A PowerDEVS model is defined by a block diagram stored in a .pdm file which represents system structure and by the atomic models in .h and .cpp files which are generated by the atomic editor. Then, the simulation is run using Quick Simulation command in the Simulation menu of the Model Editor. The Quick Simulation command performs the simulation after converting the PowerDEVS model into a standalone program that executes the simulation. The final simulation time is only asked in this command and then the simulation is executed.
+The conversion of the model into a simulation program is done in two steps. The Structure Generator converts the model file (.pdm) which contains all the information about the model, into a coupled DEVS specification. The Structure Generator produces a .pds file which only contains the information about connections, location of atomic models and block parameters, etc., needed to build the simulation file. The coupling specification of the model is also converted into a formal DEVS coupling specification. As the Structure Generator is a standalone program it can be run directly from the Simulation menu or from the command line. If it is run in that way, it produces a report in .pds file showing the output. Figure \ref{Struc_gen} shows the out of structure generator.
 
 \begin{figure}[ht!]
   \centering
@@ -257,10 +252,10 @@ The conversion of the model into a simulation program is done in two steps. The 
 \end{figure}
 
 \subsection{The Preprocessor}
-The Preprocessor translates the model editor files into structure files which contain the coupling structure and the information to build up the simulation code, links the code of the different atomic models according to the corresponding structure file and compiles it to produce a standalone executable file which simulates the system. It basically translates the .pds file into a header dot h file which binds the simulators and coordinators according to the coupling structure. The preprocessor also produces a make file which is then invoked to generate the program which executes the simulation. The Preprocessor can be invoked in a transparent way using the Quick Simulation command.
+The Preprocessor translates the model editor files into structure files which contain the coupling structure and the information to build up the simulation code, links the code of the different atomic models according to the corresponding structure file and compiles it to produce a standalone executable file which simulates the system. It basically translates the .pds file into a header .h file which binds the simulators and coordinators according to the coupling structure. The preprocessor also produces a make file which is then invoked to generate the program which executes the simulation. The Preprocessor can be invoked in a transparent way using the Quick Simulation command.
 
 \subsection{The Simulation Interface }
-The Simulation Interface (Figure \ref{sim_int}) runs the stand alone executable files according to the structure of PowerDEVS as shown in Figure \ref{sim_st} and provides to change the parameters of simulation like final time, number of simulations to perform, and the simulation mode (normal simulation, timed simulation, step-by-step simulation, etc.).
+The Simulation Interface (Figure \ref{sim_int}) runs the stand alone executable files according to the structure of PowerDEVS as shown in Figure \ref{sim_st} and provides input mask to change the parameters of simulation like final time, number of simulations to perform, and the simulation mode (normal simulation, timed simulation, step-by-step simulation, etc.).
 
 \begin{figure}[ht!]
   \centering
@@ -288,7 +283,7 @@ It acts as a workspace, where the simulation parameters can be read and results 
     \label{sci_in}
 \end{figure}
 
-All the applications of PowerDEVS except Model Editor were programmed in C++ with the graphical libraries QT and Model Editor was only application programmed in Visual Basic. PowerDEVS can runs under a real time operating system \cite{ManRTI} synchronizing the event with a real–time clock with the capability of capturing interrupts at the atomic level. PowerDEVS also allows the direct implementation of asynchronous DEVS–based Quantized State Controllers \cite{Kof03b} on a PC.
+All the applications of PowerDEVS except Model Editor were programmed in C++ with the graphical libraries QT. The Model Editor is the only application programmed in Visual Basic. PowerDEVS can runs under a real time operating system \cite{ManRTI} synchronizing the events with a real–time clock with the capability of capturing interrupts at the atomic level. PowerDEVS also allows the direct implementation of asynchronous DEVS–based Quantized State Controllers \cite{Kof03b} on a PC.
 
 
 \chapter{Implementation}
@@ -299,7 +294,7 @@ implementation consists of four atomic models (\pgen, \oven,
 {\ttfamily{Plot}} and {\ttfamily{Save to Disk}}), two (\pgen and 
 {\oven) of which are programmed by us while the other two ({\ttfamily{Plot}} and 
 {\ttfamily{Save to Disk}}) are used from the PowerDEVS's library. The \pgen 
-generates random \paste with mass and processing times. The \paste 
+generates paste with random mass and processing times. The \paste 
 is then processed (baked) in the \oven and a \bread is produced. 
 
 \begin{figure}[htbp]
@@ -330,12 +325,12 @@ struct Paste
 
 
 \section{Paste Generator}
-The {\ttfamily{Paste Generator}} can be configures to produce randomly varying the values according to the configured parameters. In PowerDEVS IDE, the parameters dialogue box is for {\ttfamily{Paste Generator}} is shown in the Fig. \ref{fig:pastegen_params}.
+In the {\ttfamily{Paste Generator}} parameters can be specified to produce random values. In PowerDEVS IDE, the parameters dialogue box for the {\ttfamily{Paste Generator}} is shown in the Fig. \ref{fig:pastegen_params}.
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[scale=0.8]{pastegen_params.PNG}
-	\caption{{\ttfamily{Paste Generator}} parameters configuration dialog-box in PowerDEVS IDE}
+	\caption{{\ttfamily{Paste Generator}} parameters configuration dialogue-box in PowerDEVS IDE}
 	\label{fig:pastegen_params}
 \end{figure}
 
@@ -357,7 +352,7 @@ Listing \ref{pg_state_var} below, shows the state variables and objects used dur
 
 \end{lstlisting}
 
-Listing \ref{pg_init} is the \init routine for the Paste Generator. The line 1,2 is the call for passing the parameters from the IDE to a list. This list is later used to assign the configured values to the state variable (line 5--13). Next,  StochasticLib1 \footnote{http://gull.sourceforge.net/dev/classStochasticLib1.html} is initialized with a seed generated from the timer and a random number (15--16). The TA value state variable sigma is initialized to 0 (line 18). At the end, a a summary of the configured parameters is printed into the log file (lines 21--27).
+Listing \ref{pg_init} is the \init routine for the Paste Generator. The lines 1,2 are the call for passing the parameters from the IDE to a list. This list is later used to assign the configured values to the state variables (line 5--13). Next,  StochasticLib1 \footnote{http://gull.sourceforge.net/dev/classStochasticLib1.html} is initialized with a seed generated from the timer and a random number (15--16). The TA value state variable sigma is initialized to 0 (line 18). At the end, a a summary of the configured parameters is printed into the log file (lines 21--27).
 
 \begin{lstlisting}[caption={The \init for the \pgen }, language=c++, label={pg_init}]
 va_list parameters;
@@ -405,16 +400,16 @@ else {
 }
 \end{lstlisting}	
 
-The Internal Transition function (Listing \ref{pg_it}) simply generates a random value between the configured parameter \texttt{genMin} and \texttt{genMax} and assigned to a state values, for next time advance.
+The Internal Transition function (Listing \ref{pg_it}) simply generates a random value between the configured parameter \texttt{genMin} and \texttt{genMax} and assigns it a state values, for next time advance.
 
 \begin{lstlisting}[caption={The Internal Transition function for the \pgen}, language=c++, label={pg_it}]
 //The Internal Transition
 sigma=stor->IRandom(genMin,genMax);
 \end{lstlisting}
 
-Since, \pgen has no input interface, so it has nothing in the External Transition routine.
+Since, \pgen has no input interface, it has nothing in the External Transition routine.
 
-The Output function is show in the Listing \ref{pg:ot}. A \paste is first created and than, its parameters are filled with random values under the configured range and then sent to the output port. Once, enough \paste have been generated than an \texttt{empty} output is returned.
+The Output function is shown in the Listing \ref{pg:ot}. A \paste is first created and than, its parameters are filled with random values under the configured range and then sent to the output port. Once, enough \paste have been generated an \texttt{empty} output is returned.
  
 \begin{lstlisting}[caption={The Output function for the \pgen}, language=c++, label={pg:ot}]
 if(maxOutputs-->0)
@@ -598,129 +593,7 @@ printLog("=============================================\n");
 \end{lstlisting}
 
 
-<<<<<<< HEAD
-\section{Task-3 : Documentation}
-\subsection{DEVS-Formalism}
-
-DEVS is an acronym for Discrete Event System . This is a formalism that was first introduced by Bernard Zeigler. It is used for the description of discrete event system.  A DEVS model has input events which are processed to produce output events(results). Output events are influenced by  input events and  initial conditions of the model.Figure \ref{atomic_model} shows a basic structure of an atomic model.  An Atomic DEVS model has the following formulation;
-
-Where
-
-$X$ 		: set of input event values, i.e., the set of all possible values that an input event can have \\
-$Y$ 		: set of possible output event values \\
-$S$ 		: set of possible states values \\
-$\delta ext$ 	: External state transition function \\
-$\delta int$ 	: Internal state transition function \\
-ta	  	: Time advance  Function \\
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Fig1.png}
-    \caption{Atomic Model}
-    \label{atomic_model}
-\end{figure}
-
-
-\subsection{DEVS-Model for Baking Oven}
-\subsection{Simulation Tool Experiences}
-
-
-PowerDEVS is a general purpose software tool for DEVS modeling and simulation oriented to the simulation of hybrid systems. It allows defining atomic DEVS models in C++ language that can be then graphically coupled in hierarchical block diagrams to create more complex systems. The environment automatically translates the graphically coupled models into a C++ code which executes the simulation \cite{BK11}.
-One of the features of PowerDEVS is the synchronization of simulation in real time operating system with real time clock, which allows the design and implementation of synchronous and asynchronous digital controller. PowerDEVS is also efficient tool for real time simulation of physical systems when combined with continuous system simulation library. The interconnection of PowerDEVS with the numerical package Scilab is another attractive feature of PowerDEVS. The variables and functions in the workspace of Scilab can be used by PowerDEVS, and Scilab can process and analyze the result data sent from PowerDEVS.
-PowerDEVS is composed of various independent programs: 
-
-
-
-\subsubsection{The Model Editor} 
-It is the main program of PowerDEVS which provides graphical interface for building and managing models and library, launching simulation, editing elementary blocks up to atomic model definitions and link with other application of PowerDEVS. 
- 
- 
- \begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Fig2.png}
-    \caption{Model Editor main window}
-    \label{model_edt}
-\end{figure}
- 
-The Model Editor main window shown in Figure \ref{model_edt} is used to create and open models and libraries. At the left the list if libraries can be selected and blocks can be dragged from the libraries to the models. The selected library is active and the blocks are visible under the selected library. Models and libraries can be edited in a model window with the open and new model commands. The model window in Figure \ref{model_win} showing model consist of with four sub models.
-
-
- \begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Fig3.png}
-    \caption{Model Window}
-    \label{model_win}
-\end{figure}
-
-In the model windows the typical graphical edition facilities are provided so that blocks can be copied, resized, rotated, etc. while the connections between different ports can be directly drawn. The edit menu or using the right button the features of each blocks either a coupled or an atomic model can be edited. The block edition window shown in Figure \ref{Block_win} is used to configure the graphic appearance of the block and to choose the parameters of blocks. In the case of atomic models the associated code with the DEVS model definitions, can be selected in block edition window. The values of the block parameters can be changed by double clicking on the block as shown in Figure \ref{para_win} . Thus the predefined blocks are taken from the libraries and the parameter values can be changed without editing them.
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.85\textwidth]{Fig4.png}
-    \caption{Block Edition Window}
-    \label{Block_win}
-\end{figure}
-
-The Coupled models have no an associated code and there are some other extra features which can be modified in block edition window and the edit menu. Various input and output ports of a coupled model are characterized by their names. The order of their appearance in the block can be changed in the edition window. Priorities can be established in edition menu of corresponding model to solve the simultaneous occurrence of event among blocks at the same sub–model.
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Fig5.png}
-    \caption{Parameter changing window}
-    \label{para_win}
-\end{figure}
-
-
-\subsubsection{The Atomic Editor}
-The Atomic Editor facilitates the edition of C++ code corresponding to each DEVS model. The transition functions, output function, time advance, etc. for DEVS atomic models of elementary blocks are defined in it.
-
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.9\textwidth]{Fig6.png}
-    \caption{Atomic Editor main window}
-    \label{atomic_win}
-\end{figure}
-
-It can be invoked from the Edition Window to edit an existing code or to create a new one. It can be also run directly from Windows since it is a standalone application. The Atomic Editor main window is shown in Figure \ref{atomic_win}. In atomic editor the state variables, the output of the DEVS model and the variables of system parameters are only defined. Then the C++ code for time advance, transition and output functions has to be placed in the corresponding windows and when the model is saved, the code is automatically completed and stored in the corresponding .cpp and .h files. The Atomic Editor was also designed to write a code which is very similar to the DEVS model definition. All the rest of the job related to simulation and implementation topics is automatically performed by the program.
-\subsubsection{Structure Generator}
-A PowerDEVS model is defined by block diagram in dot pdm file which represent system structure and the atomic models in dot h and dot cpp files which are generated by the atomic editor. Then, the simulation is run using Quick Simulation command in the Simulation menu of the Model Editor. The Quick Simulation command performs the simulation and PowerDEVS model is converted into a standalone program that executes the simulation. The final simulation time is only asked in this command and then the simulation is executed.
-The conversion of the model into a simulation program is done in two steps. The Structure Generator converts the model file (.pdm) which contains all the information about the model, into a coupled DEVS specification. The Structure Generator produces a dot pds file which only contains the information about connections, location of atomic models and block parameters, etc., needed to build the simulation file. The coupling specification of the model is also converted into a formal DEVS coupling specification. As the Structure Generator is a standalone program so it can be run directly from the Simulation menu or from the command line. If it is run in that way, it produces a report in dot pds file showing the output. Figure \ref{Struc_gen} shows the out of structure generator.
-
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.9\textwidth]{Fig7.png}
-    \caption{Structure Generator output}
-    \label{Struc_gen}
-\end{figure}
-
-
-
-\subsubsection{The Preprocessor}
-The Preprocessor translates the model editor files into structure files which contain the coupling structure and the information to build up the simulation code, links the code of the different atomic models according to the corresponding structure file and compiles it to produce a standalone executable file which simulates the system. It basically translates the .pds file into a header dot h file which binds the simulators and coordinators according to the coupling structure. The preprocessor also produces a make file which is then invoked to generate the program which executes the simulation. The Preprocessor can be invoked in a transparent way using the Quick Simulation command.
-\subsubsection{The Simulation Interface }
-The Simulation Interface ( Figure \ref{sim_int} ) runs the stand alone executable files according to the structure of PowerDEVS as shown in Figure \ref{sim_st} and provides to change the parameters of simulation like final time, number of simulations to perform, and the simulation mode (normal simulation, timed simulation, step-by-step simulation, etc.).
-
-
-\begin{figure}[ht!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{Fig8.png}
-    \caption{Simulation interface}
-    \label{sim_int}
-\end{figure}
-
-
-\begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.7\textwidth]{Fig9.png}
-    \caption{Simulation structure of PowerDEVS}
-    \label{sim_st}
-\end{figure}
-
-=======
 %\section{Task-3 : Documentation}
->>>>>>> origin/master
 
 \chapter{Results}
 

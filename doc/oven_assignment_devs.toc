@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-\contentsline {section}{\numberline {1}Task-1 DEVS-Model for Baking Oven}{1}
-\contentsline {subsection}{\numberline {1.1}Description}{1}
-\contentsline {subsection}{\numberline {1.2}Paste arrive scenario}{1}
-\contentsline {section}{\numberline {2}Task-2 : Implementation of Baking Oven Model in \texttt {PowerDEVS}\nobreakspace {}}{1}
-\contentsline {subsection}{\numberline {2.1}Paste structure}{2}
-\contentsline {subsection}{\numberline {2.2}Paste Generator}{2}
-\contentsline {subsection}{\numberline {2.3}Oven}{5}
-\contentsline {section}{\numberline {3}Task-3 : Documentation}{9}
-\contentsline {subsection}{\numberline {3.1}DEVS-Formalism}{9}
-\contentsline {subsection}{\numberline {3.2}DEVS-Model for Baking Oven}{10}
-\contentsline {subsection}{\numberline {3.3}Simulation Tool Experiences}{10}
-\contentsline {subsubsection}{\numberline {3.3.1}The Model Editor}{10}
-\contentsline {subsubsection}{\numberline {3.3.2}The Atomic Editor}{13}
-\contentsline {subsubsection}{\numberline {3.3.3}Structure Generator}{13}
-\contentsline {subsubsection}{\numberline {3.3.4}The Preprocessor}{14}
-\contentsline {subsubsection}{\numberline {3.3.5}The Simulation Interface }{14}
-\contentsline {subsubsection}{\numberline {3.3.6}A running instance of Scilab}{15}
-\contentsline {section}{\numberline {4}Task 4 : Simulation Results}{16}
-=======
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}DEVS-Model for Baking Oven}{1}
 \contentsline {section}{\numberline {1.2}Paste arrive scenario}{1}
@@ -26,7 +6,7 @@
 \contentsline {section}{\numberline {2.2}The \texttt {PowerDEVS}\nobreakspace {}}{3}
 \contentsline {subsection}{\numberline {2.2.1}The Model Editor}{4}
 \contentsline {subsection}{\numberline {2.2.2}The Atomic Editor}{6}
-\contentsline {subsection}{\numberline {2.2.3}Structure Generator}{6}
+\contentsline {subsection}{\numberline {2.2.3}Structure Generator}{7}
 \contentsline {subsection}{\numberline {2.2.4}The Preprocessor}{7}
 \contentsline {subsection}{\numberline {2.2.5}The Simulation Interface }{7}
 \contentsline {subsection}{\numberline {2.2.6}A running instance of Scilab}{7}
@@ -37,4 +17,3 @@
 \contentsline {chapter}{\numberline {4}Results}{21}
 \contentsline {section}{\numberline {4.1}Log file output}{21}
 \contentsline {section}{\numberline {4.2}GNU Plot of outputs}{22}
->>>>>>> origin/master
